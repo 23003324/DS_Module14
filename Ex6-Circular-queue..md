@@ -5,9 +5,13 @@ To write a C program to delete three elements from the filled circular queue.
 
 ## Algorithm
 1.Initialize front and rear to -1.
+
 2.Fill the queue using circular enqueue logic.
+
 3.Check if the queue is empty before deletion.
+
 4.Delete three elements using circular dequeue.
+
 5.Display the queue from front to rear.   
 
 ## Program:
