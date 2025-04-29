@@ -5,14 +5,23 @@ To write a C function to count the number of elements present in the deque.
 
 ## Algorithm
 1.Start the program.
+
 2.Define the deque with a fixed size array, front, and rear pointers.
+
 3.Initialize the deque as empty (front = -1, rear = -1).
+
 4.Implement insertFront and insertRear functions to add elements.
+
 Create a function countDeque:
+
 If deque is empty, count is 0.
+
 If rear >= front, count = rear - front + 1.
+
 Else, count = (SIZE - front) + (rear + 1).
+
 5.Display the number of elements.
+
 6.End the program.   
 
 ## Program:
