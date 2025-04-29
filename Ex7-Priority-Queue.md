@@ -5,9 +5,13 @@ To formulate the C code to display the elements of the priority queue after inse
 
 ## Algorithm
 1.Initialize an empty priority queue with size = 0.
+
 2.Insert a new element in sorted order (descending), shifting elements if needed.
+
 3.Delete the highest priority element (first element) and shift the rest left.
+
 4.Display all elements from index 0 to size - 1.
+
 5.Repeat the operations based on user choice until exit is selected.
 
 ## Program:
